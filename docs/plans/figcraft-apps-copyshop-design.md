@@ -106,9 +106,9 @@ Every CopyShop page is a 1440×900 frame with:
 
 ## Acceptance Criteria
 
-- [ ] Chooser page shows CopyShop + TrainingSchool active cards and 3 "coming soon" placeholders
-- [ ] All 8 CopyShop pages exist with the shared shell (top bar + sidebar)
-- [ ] Sidebar highlights the current page on each screen
-- [ ] Each page has its basic content skeleton (tables, cards, buttons, forms)
-- [ ] Indigo theme + 1440×900 consistent with the auth design
-- [ ] Saved to `design/desktop/apps.figcraft`
+- [x] Chooser page shows CopyShop + TrainingSchool active cards and 3 "coming soon" placeholders
+- [x] All 8 CopyShop pages exist with the shared shell (top bar + sidebar)
+- [x] Sidebar highlights the current page on each screen
+- [x] Each page has its basic content skeleton (tables, cards, buttons, forms)
+- [x] Indigo theme + 1440×900 consistent with the auth design
+- [x] Saved to `design/desktop/apps.figcraft`
