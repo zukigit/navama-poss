@@ -1,0 +1,10 @@
+{
+  "name": "rhel9-dev",
+  "image": "docker.io/zukidocker/ubi10:cargo",
+  "remoteUser": "zuki",
+
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/home/zuki/.ssh,type=bind,readonly",
+    "source=${localEnv:HOME}/.gitconfig,target=/home/zuki/.gitconfig,type=bind",
+  ]
+}
