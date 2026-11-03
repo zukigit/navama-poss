@@ -1,0 +1,67 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="ZpFW9LrajVu2g1vbS-lg">
+    <mxGraphModel dx="1414" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <object label="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-1" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="CopyShopApp" vertex="1">
+          <mxGeometry height="70" width="130" x="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-6" edge="1" parent="1" source="-dZJy8BvhxVzU2j-2_yW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="-dZJy8BvhxVzU2j-2_yW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="170" width="110" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-4" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;APP&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-5" parent="1" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="TrainingCenterApp" vertex="1">
+          <mxGeometry height="70" width="130" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-7" edge="1" parent="1" source="-dZJy8BvhxVzU2j-2_yW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="-dZJy8BvhxVzU2j-2_yW-1">
+          <mxGeometry relative="1" x="0.1385" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-8" edge="1" parent="1" source="-dZJy8BvhxVzU2j-2_yW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="-dZJy8BvhxVzU2j-2_yW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="choose App" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="190" as="geometry" />
+        </mxCell>
+        <UserObject label="CopyShopAppFull" note="&lt;div&gt;&lt;ol&gt;&lt;li&gt;Load ui plugin&lt;/li&gt;&lt;li&gt;Load DbModule. we will use sqlite for now. We have plan to add more DB typse in the future.&lt;/li&gt;&lt;li&gt;Load server and client modules&lt;/li&gt;&lt;li&gt;Login using Auth Module.&lt;/li&gt;&lt;li&gt;Auth and Db Modules should be common to be able to shared with other apps too&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" id="-dZJy8BvhxVzU2j-2_yW-16">
+          <mxCell parent="1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="360" width="620" x="60" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-17" parent="-dZJy8BvhxVzU2j-2_yW-16" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="AuthModule(Common)" vertex="1">
+          <mxGeometry height="90" width="150" x="55" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-19" parent="-dZJy8BvhxVzU2j-2_yW-16" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="ServerModule" vertex="1">
+          <mxGeometry height="90" width="150" x="235" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-20" parent="-dZJy8BvhxVzU2j-2_yW-16" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="ClientModule" vertex="1">
+          <mxGeometry height="90" width="150" x="410" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-dZJy8BvhxVzU2j-2_yW-21" parent="-dZJy8BvhxVzU2j-2_yW-16" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="UserInterface" vertex="1">
+          <mxGeometry height="90" width="150" x="55" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="DZ2rh4QW2I7fhY4no928-1" parent="-dZJy8BvhxVzU2j-2_yW-16" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="DbModule" vertex="1">
+          <mxGeometry height="90" width="150" x="235" y="95" as="geometry" />
+        </mxCell>
+        <UserObject label="s" id="DZ2rh4QW2I7fhY4no928-2">
+          <mxCell parent="1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="360" width="620" x="720" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="DZ2rh4QW2I7fhY4no928-5" parent="DZ2rh4QW2I7fhY4no928-2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="ClientModule" vertex="1">
+          <mxGeometry height="90" width="150" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DZ2rh4QW2I7fhY4no928-6" parent="DZ2rh4QW2I7fhY4no928-2" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" value="UserInterface" vertex="1">
+          <mxGeometry height="90" width="150" x="220" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

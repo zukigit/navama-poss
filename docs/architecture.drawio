@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="r2jhm_bT4Ii7fwMd9XFY">
-    <mxGraphModel dx="3288" dy="2545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2960" dy="2351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,6 +70,11 @@
         <mxCell id="RNCZXLrNAmX0hx1P3niG-8" parent="RNCZXLrNAmX0hx1P3niG-15" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="upload" vertex="1">
           <mxGeometry height="42.99" width="80" x="186.4" y="183.01" as="geometry" />
         </mxCell>
+        <UserObject label="" note="every data are encrypted with user&#39;s password" id="Zy7ejq4Cv0PCuFcku5Mc-1">
+          <mxCell parent="RNCZXLrNAmX0hx1P3niG-15" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;labelPerimeter=1;" vertex="1">
+            <mxGeometry height="30" width="24" x="212.39999999999998" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="RNCZXLrNAmX0hx1P3niG-16" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="330" width="426.79999999999995" x="773.2" y="160" as="geometry" />
         </mxCell>
