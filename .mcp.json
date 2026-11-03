@@ -4,6 +4,11 @@
       "type": "stdio",
       "command": "figcraft-cli",
       "args": ["mcp", "--attach", "7979"]
+    },
+    "wordcraft": {
+      "type": "stdio",
+      "command": "wordcraft-cli",
+      "args": ["mcp", "--connect", "127.0.0.1:8989"]
     }
   }
 }
