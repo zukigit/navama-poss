@@ -6,5 +6,7 @@
   "mounts": [
     "source=${localEnv:HOME}/.ssh,target=/home/zuki/.ssh,type=bind,readonly",
     "source=${localEnv:HOME}/.gitconfig,target=/home/zuki/.gitconfig,type=bind",
+    "source=${localEnv:HOME}/.claude,target=/home/zuki/.claude,type=bind",
+    "source=${localEnv:HOME}/.claude.json,target=/home/zuki/.claude.json,type=bind",
   ]
 }
